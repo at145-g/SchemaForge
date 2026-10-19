@@ -23,8 +23,8 @@ st.markdown("""
         border: 1px solid #334155;
     }
     
-    /* Typography adjustments */
-    h1, h2, h3, p {
+    /* Typography adjustments - Added h4, h5, h6 to fix faded text */
+    h1, h2, h3, h4, h5, h6, p {
         color: #F8FAFC !important;
         font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     }
@@ -50,6 +50,7 @@ st.markdown("""
         font-weight: bold;
     }
 </style>
+
 """, unsafe_allow_html=True)
 
 st.title("📊 SchemaForge: SQL to ERD Visualizer")
